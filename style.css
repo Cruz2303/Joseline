@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+}
+div.cont-raiz{
+    background-color: aqua;
+    min-height: 800px;
+    width: 1100px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+div.cont-izq{
+    background-color: darkmagenta;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+    width: 370px;
+    font-weight: bold;
+    color: white;
+}
+div.parte-1{
+    display: flex;
+    flex-flow: column nowrap;
+}
+div.foto{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 17px;
+}
+div.foto img{
+    display: flex;
+    border-radius:180px;
+}
+div.curriculo-vitae{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px white groove;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+div.parte-2{
+    display: flex;
+    flex-flow: column nowrap;
+}
+div.titulo-datos{
+    padding-top: 30px;
+}
+ul.datos-lista{
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    left: -10px;
+    top: 10px;
+}
+ul.datos-lista li{
+    padding: 10px;
+}
+ul.datos-lista li img{
+    vertical-align: middle;
+}
+div.cont-der{
+    width: 730px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+div.parte-principal-1{
+    display: flex;
+    flex-flow: column nowrap;
+}
+div.parrafo-perfil{
+    position: relative;
+    top: 15px;
+    font-size: 19px;
+}
+div.parte-principal-2{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 30px;
+}
+div.titulo-parte-principal{
+    color: darkblue;
+}
+div.titulo-mes{
+    color: brown;
+}
+div.parte-experiencia{
+    position: relative;
+    top: 20px;
+}
+div.parrafo-experiencia{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 250px;
+    position: relative;
+    top: -25px;
+}
+ul.listas-experiencias{
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 20px;
+}
+div.parte-principal-3{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 40px;
+}
+.parrafo-formacion,.parrafo-idiomas{
+    position: relative;
+    top: 20px;
+}
+div.idiomas{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+div.cont-der p,li{
+    font-size: 19px;
+}
